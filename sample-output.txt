@@ -1,0 +1,109 @@
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 2
+ID    | Name       | Department   | Salary     | Status
+-------------------------------------------------------------
+101   | Alex       | Engineering  | 90000.00   | ACTIVE
+102   | Sam        | Engineering  | 125000.00  | ACTIVE
+103   | John       | Finance      | 140000.00  | INACTIVE
+104   | Priya      | Engineering  | 150000.00  | ACTIVE
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 3
+Enter Employee ID to search: 102
+ID    | Name       | Department   | Salary     | Status
+-------------------------------------------------------------
+102   | Sam        | Engineering  | 125000.00  | ACTIVE
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 3
+Enter Employee ID to search: 999
+Error: Employee with ID 999 was not found.
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 4
+Enter Department name: Engineering
+ID    | Name       | Department   | Salary     | Status
+-------------------------------------------------------------
+101   | Alex       | Engineering  | 90000.00   | ACTIVE
+102   | Sam        | Engineering  | 125000.00  | ACTIVE
+104   | Priya      | Engineering  | 150000.00  | ACTIVE
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 5
+Enter minimum salary threshold: 100000
+ID    | Name       | Department   | Salary     | Status
+-------------------------------------------------------------
+102   | Sam        | Engineering  | 125000.00  | ACTIVE
+104   | Priya      | Engineering  | 150000.00  | ACTIVE
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 1
+Enter Employee ID: 105
+Enter Name: Max
+Enter Department: Marketing
+Enter Salary: 60000
+Enter Status (ACTIVE/INACTIVE): ACTIVE
+Employee added successfully.
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 2
+ID    | Name       | Department   | Salary     | Status
+-------------------------------------------------------------
+101   | Alex       | Engineering  | 90000.00   | ACTIVE
+102   | Sam        | Engineering  | 125000.00  | ACTIVE
+103   | John       | Finance      | 140000.00  | INACTIVE
+104   | Priya      | Engineering  | 150000.00  | ACTIVE
+105   | Max        | Marketing    | 60000.00   | ACTIVE
+
+===== Employee Management Console =====
+1. Add Employee
+2. Display All Employees
+3. Search Employee by ID
+4. Display Employees by Department
+5. Display Active Employees with Salary Greater Than X
+6. Exit
+Enter your choice: 6
+Application closed. Goodbye!
